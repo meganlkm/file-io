@@ -22,9 +22,15 @@ Append an array to file:
 
 Write a csv file:
 ````
+    $header = ['col1', 'col2', 'col3']
+    $data = [
+        ['row1col1', 'row1, col2', 'row1col3'],
+        ['row2col1', 'row2, col2', 'row2col3'],
+        ['row3col1', 'row3, col2', 'row3col3'],
+    ];
     $file = File::newInstance('test.csv', 'write')->open();
     CSV::newInstance($file)
-        ->setHeader($this->header)
-        ->setData($this->data)
+        ->setHeader($header)
+        ->setData($data)
         ->save();
 ````
