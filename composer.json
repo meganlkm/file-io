@@ -1,0 +1,35 @@
+{
+    "name": "cis-packages/file-io",
+    "type": "library",
+    "description": "file io",
+    "keywords": ["file", "io", "csv", "xlsx","php","lib"],
+    "license": "MIT",
+    "version" : "0.5",
+    "authors": [
+        {
+            "name": "Megan Wood",
+            "email": "megan.lkm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "bin": [
+        "bin/csv2xlsx.pl"
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mikey179/vfsStream": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FileIO\\": "src/FileIO"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileIO\\Tests\\": "tests/FileIO"
+        }
+    }
+}
