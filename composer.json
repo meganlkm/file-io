@@ -12,9 +12,6 @@
             "role": "Developer"
         }
     ],
-    "bin": [
-        "bin/csv2xlsx.pl"
-    ],
     "require": {
         "php": ">=5.4.0"
     },
