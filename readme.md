@@ -1,10 +1,10 @@
-FileIO
-====
+# FileIO
+
+[![Build Status](https://travis-ci.org/meganlkm/file-io.svg?branch=master)](https://travis-ci.org/meganlkm/file-io)
 
 A basic file input/output package.
 
-<hr />
-**Usage:**
+### Usage:
 
 Write a string to file:
 ````
