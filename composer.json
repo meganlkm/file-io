@@ -1,8 +1,8 @@
 {
-    "name": "cis-packages/file-io",
+    "name": "my-packages/file-io",
     "type": "library",
     "description": "file io",
-    "keywords": ["file", "io", "csv", "xlsx","php","lib"],
+    "keywords": ["file", "io", "csv","php","lib"],
     "license": "MIT",
     "version" : "0.5",
     "authors": [
