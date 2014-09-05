@@ -4,10 +4,30 @@ namespace FileIO;
 
 use FileIO\File;
 
+/**
+ * FileIO\CSV
+ *
+ * wrapper for CSV file functionality
+ *
+ * @author  Megan Wood <megan.lkm@gmail.com>
+ * @package FileIO
+ * @version 1.0
+ */
 class CSV
 {
+    /**
+     * @var FileIO\File
+     */
     protected $file;
+
+    /**
+     * @var array
+     */
     protected $header;
+
+    /**
+     * @var array
+     */
     protected $data;
 
     /**
