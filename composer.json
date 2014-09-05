@@ -4,7 +4,7 @@
     "description": "file io",
     "keywords": ["file", "io", "csv","php","lib"],
     "license": "MIT",
-    "version" : "0.5",
+    "version" : "0.9",
     "authors": [
         {
             "name": "Megan Wood",
