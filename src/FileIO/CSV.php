@@ -9,7 +9,7 @@ use FileIO\File;
  *
  * wrapper for CSV file functionality
  *
- * @author  Megan Wood <megan.lkm@gmail.com>
+ * @author  Megan Wood <megan@devstuff.io>
  * @package FileIO
  * @version 1.0
  */
